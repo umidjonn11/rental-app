@@ -1,5 +1,5 @@
 import jwt from "jsonwebtoken";
-import { getUserById } from "../servies/index.js";
+import { getUserById } from "../service/index.js";
 
 export const authMiddleware = async (req, res, next) => {
     try {
